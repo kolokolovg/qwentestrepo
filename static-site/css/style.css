@@ -1,0 +1,44 @@
+/* Пользовательские стили для сайта */
+
+/* Плавная прокрутка для всей страницы */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Дополнительные отступы для секций */
+section {
+    scroll-margin-top: 70px; /* Отступ для якорных ссылок с учетом фиксированной навигации */
+}
+
+/* Стили для карточек услуг при наведении */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Стили для формы контактов */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Адаптивность для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Кастомизация кнопки */
+.btn-primary {
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+/* Footer стили */
+footer {
+    margin-top: auto;
+}
